@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import {ContenidoPage} from "./pages/contenido/ContenidoPage"
+import {TipoLenguajePage} from "./pages/tipoLenguajes/TipoLenguajesPage"
+import {RecomendacionPage} from "./pages/recomendacionPage/RecomendacionPage"
+
+import {FooterComponent} from "./components/footer/FooterComponent"
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <ContenidoPage></ContenidoPage>
+        <TipoLenguajePage></TipoLenguajePage>
+        <RecomendacionPage></RecomendacionPage>
+        <FooterComponent></FooterComponent>
     </div>
   );
 }

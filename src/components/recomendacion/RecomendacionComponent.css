@@ -1,0 +1,25 @@
+.container3{
+    display: block;
+    margin: 40px;
+    padding: 15px;
+    font-weight: 100;
+}
+.container3 p{
+    margin: 20px;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 30px;
+    border-bottom: 2px solid;
+}
+
+p{
+    font-size: 18px;
+    margin: 10px;
+    padding-bottom: 2px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

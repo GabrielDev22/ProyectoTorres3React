@@ -1,0 +1,140 @@
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 30px;
+    border-bottom: 2px solid;
+}
+h3{
+    margin: 1%;
+    padding: 2px;
+}
+
+p{
+    font-size: 18px;
+    margin: 10px;
+    padding-bottom: 2px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagenes_secundarias{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 200px;
+    border: 2px solid black;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #3c67e3;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #2544a2;
+    animation: pulsate 2s ease-in-out;
+}
+
+.container2 {
+    background-color: #0d0a0a;
+    color: white;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 10px;
+}
+.carta {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 70%;
+    margin: 20px;
+}
+.carta:hover {
+    animation: pulsate 2s ease-in-out;
+}
+.carta p {
+    color: white;
+    margin: 30px;
+}
+.carta button{
+    margin: 10px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(7){
+    background-image: linear-gradient(
+        0deg,
+        rgba(56, 77, 167, 0.875),
+        rgba(14, 10, 10, 0.5)
+    )
+}
+.carta:nth-child(8){
+        background-image: linear-gradient(
+            0deg,
+            rgba(56, 77, 167, 0.875),
+            rgba(14, 10, 10, 0.5)
+        )
+    }
+.carta:nth-child(9){
+        background-image: linear-gradient(
+            0deg,
+            rgba(56, 77, 167, 0.875),
+            rgba(14, 10, 10, 0.5)
+        )
+    }
+
+    @keyframes pulsate {
+        0%{
+            box-shadow: 
+            0 0 25px #5ddcff,
+            0 0 50px #4e00c2;
+        }
+    }
